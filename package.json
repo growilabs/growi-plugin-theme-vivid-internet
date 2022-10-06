@@ -39,7 +39,7 @@
   },
   "growiPlugin": {
     "types": [
-      "script"
+      "style"
     ]
   }
 }
