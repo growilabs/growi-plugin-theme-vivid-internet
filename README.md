@@ -1,0 +1,1 @@
+# growi-plugin-styling-example
