@@ -109,4 +109,85 @@
       @include page-editor-mode-manager.btn-page-editor-mode-manager($primary, lighten($primary, 65%), lighten($primary, 70%));
     }
   }
+
+
+
+
+
+  // breaking!!
+  .navbar > div {
+    margin: -10px !important;
+  }
+  .navbar > ul > li {
+    margin-right: -20px !important;
+  }
+  .grw-subnav {
+    padding: 0;
+    margin: 30px;
+  }
+  #main {
+    margin: -30px;
+  }
+
+  .wiki h1 {
+    transform: translateX(100%);
+    animation: marquee 15s linear infinite;
+  }
+  @keyframes marquee {
+    0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
+
+  .grw-recent-changes {
+    margin: -15px;
+  }
+  .grw-sidebar-nav-primary-container .btn.active {
+    width:50px;
+    height:50px;
+    margin:20px;
+    background:#0091EA;
+    animation: flash 0.3s linear infinite;
+  }
+
+  @keyframes flash {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  .footer::before {
+    position: absolute;
+    left: 500px;
+    padding-right: 5px;
+    vertical-align: middle;
+    content: url(https://kat0h.com/img/button/back.gif);
+    transform: scale(3);
+  }
+
+  .wiki::after {
+    position: absolute;
+    left: 800px;
+    padding-right: 5px;
+    vertical-align: middle;
+    content: url(https://kat0h.com/img/button/home.gif);
+    transform: scale(3);
+  }
 }

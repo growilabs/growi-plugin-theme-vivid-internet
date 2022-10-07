@@ -4,11 +4,11 @@
     "src": "client-entry.tsx",
     "isEntry": true,
     "css": [
-      "assets/client-entry.c9caa2b1.css"
+      "assets/client-entry.3e6545ed.css"
     ]
   },
   "client-entry.css": {
-    "file": "assets/client-entry.c9caa2b1.css",
+    "file": "assets/client-entry.3e6545ed.css",
     "src": "client-entry.css"
   }
 }
