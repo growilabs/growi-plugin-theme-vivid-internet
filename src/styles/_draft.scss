@@ -1,0 +1,27 @@
+.draft-list-item {
+  .panel-heading {
+    .icon-container {
+      a:hover {
+        text-decoration: unset;
+      }
+      i {
+        opacity: 0.5;
+      }
+    }
+
+    &:hover {
+      .icon-container {
+        i {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .draft-copy {
+    cursor: pointer;
+  }
+  .draft-path {
+    cursor: pointer;
+  }
+}

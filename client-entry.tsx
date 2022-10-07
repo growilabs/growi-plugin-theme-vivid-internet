@@ -1,1 +1,1 @@
-import './src/StylingExample.css';
+import './src/styles/style.scss';
