@@ -1,1 +1,1 @@
-# growi-plugin-styling-example
+# GROWI Plugin Theme Welcome to fumiya's room
