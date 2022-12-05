@@ -14,7 +14,7 @@
 // $light: #;
 // $dark: #;
 
-:root body.theme-default {
+:root[data-theme] body.theme-default {
   $primary: #00ff00;
   $accent: #000;
 
