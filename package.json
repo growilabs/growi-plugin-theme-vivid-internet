@@ -7,7 +7,8 @@
     "growi",
     "growi-plugin"
   ],
-  "type": "module",
+  "main": "dist/libs/index.js",
+  "files": ["dist"],
   "scripts": {
     "build": "yarn build:libs & yarn build:themes",
     "build:w": "yarn build:libs -w & yarn build:themes -w",
