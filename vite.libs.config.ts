@@ -7,7 +7,7 @@ export default defineConfig({
     copyPublicDir: false,
     lib: {
       entry: 'src/index.ts',
-      name: 'preset-themes-libs',
+      name: 'libs',
       formats: ['cjs'],
     },
     rollupOptions: {
