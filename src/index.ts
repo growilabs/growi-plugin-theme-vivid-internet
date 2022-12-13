@@ -1,4 +1,4 @@
-import { GrowiCustomThemeSummary, GrowiThemeSchemeType } from "./interfaces/growi-theme-summary";
+import { GrowiCustomThemeSummary, GrowiThemeSchemeType } from "./interfaces/summary";
 
 export const summaries: GrowiCustomThemeSummary[] = [
   {
