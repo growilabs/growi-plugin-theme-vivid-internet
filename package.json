@@ -8,12 +8,12 @@
     "growi-plugin"
   ],
   "main": "dist/libs/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "yarn build:libs & yarn build:themes",
-    "build:w": "yarn build:libs -w & yarn build:themes -w",
-    "build:libs": "vite -c vite.libs.config.ts build",
-    "build:themes": "vite -c vite.themes.config.ts build",
+    "build": "vite build",
+    "build:w": "yarn build -w",
     "lint:eslint": "eslint --quiet \"**/*.{js,jsx,ts,tsx}\"",
     "lint:styles": "stylelint src/**/*.scss",
     "lint": "run-p lint:*",
