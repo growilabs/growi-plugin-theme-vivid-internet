@@ -193,23 +193,4 @@
       opacity: 1;
     }
   }
-
-
-  .footer::before {
-    position: absolute;
-    left: 500px;
-    padding-right: 5px;
-    vertical-align: middle;
-    content: url(https://kat0h.com/img/button/back.gif);
-    transform: scale(3);
-  }
-
-  .wiki::after {
-    position: absolute;
-    left: 800px;
-    padding-right: 5px;
-    vertical-align: middle;
-    content: url(https://kat0h.com/img/button/home.gif);
-    transform: scale(3);
-  }
 }
