@@ -3,18 +3,13 @@
   "version": "1.2.0",
   "description": "GROWI theme plugin that brings vivid internet back to modern times",
   "license": "MIT",
-  "keywords": [
-    "growi",
-    "growi-plugin"
-  ],
+  "keywords": ["growi", "growi-plugin"],
   "main": "dist/libs/index.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "vite build",
     "build:w": "yarn build -w",
-    "lint:eslint": "eslint --quiet \"**/*.{js,jsx,ts,tsx}\"",
+    "lint:biome": "biome check ./",
     "lint:styles": "stylelint src/**/*.scss",
     "lint": "run-p lint:*",
     "preview": "vite preview"
@@ -31,9 +26,7 @@
   },
   "growiPlugin": {
     "schemaVersion": "4",
-    "types": [
-      "theme"
-    ],
+    "types": ["theme"],
     "themes": [
       {
         "name": "vivid-internet",
