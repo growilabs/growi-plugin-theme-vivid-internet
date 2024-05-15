@@ -12,9 +12,11 @@
   "scss.validate": false,
 
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.markdownlint": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.stylelint": "explicit"
+  },
+
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
 
   "githubPullRequests.ignoredPullRequestBranches": [
