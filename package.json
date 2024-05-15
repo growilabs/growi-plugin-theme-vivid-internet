@@ -1,7 +1,7 @@
 {
-  "name": "growi-plugin-theme-welcome-to-fumiya-room",
-  "version": "1.1.0",
-  "description": "GROWI plugin test for JS",
+  "name": "growi-plugin-theme-vivid-internet",
+  "version": "1.2.0",
+  "description": "GROWI theme plugin that brings vivid internet back to modern times",
   "license": "MIT",
   "keywords": [
     "growi",
@@ -52,7 +52,7 @@
     ],
     "themes": [
       {
-        "name": "welcome-to-fumiya-room",
+        "name": "vivid-internet",
         "manifestKey": "src/styles/style.scss",
         "schemeType": "light",
         "bg": "#00FFFF",
