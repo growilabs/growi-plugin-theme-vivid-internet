@@ -4,8 +4,6 @@
     "stylelint-config-recess-order"
   ],
   "rules": {
-    "indentation": 2,
-    "string-quotes": "single",
     "rule-empty-line-before": [
       "always-multi-line",
       {
@@ -13,7 +11,6 @@
         "ignore": ["after-comment", "inside-block"]
       }
     ],
-    "selector-combinator-space-before": "always",
-    "selector-combinator-space-after": "always"
+    "no-invalid-position-at-import-rule": null
   }
 }
