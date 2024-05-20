@@ -12,15 +12,16 @@
     "lint:biome": "biome check ./",
     "lint:styles": "stylelint src/**/*.scss",
     "lint": "run-p lint:*",
-    "preview": "vite preview"
+    "// preview": "vite preview",
+    "preview": "echo 'Sorry, not implemented.'"
   },
   "dependencies": {},
   "devDependencies": {
-    "@biomejs/biome": "1.7.3",
-    "@popperjs/core": "^2.11.8",
+    "@biomejs/biome": "^1.7.3",
+    "@growi/core-styles": "^0.9.0",
     "bootstrap": "^5.3.3",
-    "postcss": "^8.4.38",
-    "sass": "^1.77.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.77.2",
     "stylelint": "^16.5.0",
     "stylelint-config-recess-order": "^5.0.1",
     "stylelint-config-standard-scss": "^13.1.0",
