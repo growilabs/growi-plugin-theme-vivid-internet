@@ -35,10 +35,13 @@
         "name": "vivid-internet",
         "manifestKey": "src/styles/style.scss",
         "schemeType": "light",
-        "bg": "#00FFFF",
-        "topbar": "linear-gradient(to right,#e60000 14%,#f39800 28%,#fff100 42%,#009944 56%,#0068b7 70%,#1d2088 87%,#920783 100%)",
-        "sidebar": "#00ff00",
-        "accent": "#607000"
+        "lightBg": "#ff0000",
+        "darkBg": "#0000ff",
+        "lightSidebar": "#ffff00",
+        "darkSidebar": "#ff8800",
+        "lightIcon": "#ff0000",
+        "darkIcon": "#000000",
+        "createBtn": "#00ff00"
       }
     ]
   }
