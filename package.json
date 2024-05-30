@@ -23,6 +23,8 @@
     "@growi/pluginkit": "^1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97",
     "@types/node": "^20.12.13",
     "bootstrap": "^5.3.3",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
     "npm-run-all": "^4.1.5",
     "sass": "^1.77.2",
     "stylelint": "^16.5.0",

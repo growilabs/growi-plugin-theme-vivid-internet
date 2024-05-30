@@ -1,0 +1,4 @@
+{
+  "*.json": "vitest run --",
+  "*.scss": "yarn lint"
+}
