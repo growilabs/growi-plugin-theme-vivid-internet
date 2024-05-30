@@ -1,4 +1,4 @@
 {
-  "*.json": "vitest run --",
-  "*.scss": "yarn lint"
+  "*.json": "yarn test .",
+  "*.scss": "stylelint"
 }
