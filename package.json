@@ -19,8 +19,8 @@
   "dependencies": {},
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",
-    "@growi/core-styles": "^0.9.0",
-    "@growi/pluginkit": "^1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97",
+    "@growi/core-styles": "^1.0.0",
+    "@growi/pluginkit": "^1.0.0",
     "@types/node": "^20.12.13",
     "bootstrap": "^5.3.3",
     "husky": "^9.0.11",

@@ -219,25 +219,25 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.20.2.tgz#9c907b21e30a52db959ba4f80bb01a0cc403d5cc"
   integrity sha512-N49X4lJX27+l9jbLKSqZ6bKNjzQvHaT8IIFUy+YIqmXQdjYCToGWwOItDrfby14c78aDd5NHQl29xingXfCdLQ==
 
-"@growi/core-styles@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@growi/core-styles/-/core-styles-0.9.0.tgz#a40751b11aefdedc05ee600d6efaad32ed21597f"
-  integrity sha512-gPTFnMkB9qbc2cxDjPNWcNhgkpwv6q9t5D3xT/73uJ8Lh1ur40GMkdz+/BXbn7MF2spBVvv1Tg8DwqQ4JpTpsQ==
+"@growi/core-styles@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@growi/core-styles/-/core-styles-1.0.0.tgz#9fb5c3c44a57511cd3b1d196ddd086275dbab488"
+  integrity sha512-2QO32NQh64Bow09aDLTvwcddTk7pS+0Y4z9gP7t42YkGiNJSmjO+5HAIukyTU1eTkDqzXlB4NX9b2/oYZYlB/w==
 
-"@growi/core@1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97":
-  version "1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97"
-  resolved "https://registry.yarnpkg.com/@growi/core/-/core-1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97.tgz#d757517b56e82b11509bbdc2b46f51428a996813"
-  integrity sha512-NGmKrXDsXDrXs7MZ+/YbLMbDsmye6ffmJV9Tu190M/aX150LScJsjiHWklUw5r5P/Lea8+G7XT0xKYapsdUIPQ==
+"@growi/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@growi/core/-/core-1.0.0.tgz#d44875041026b92970a8e800299aac0ce21649ba"
+  integrity sha512-Lm1ct+MUinzjahIOiIsvyMLCMxMpDA/6CzXJFS2ixH8qsbICKha/JZ4h8zbRJ05ICW2e27EnSxVYF/cLsV4AGw==
   dependencies:
     bson-objectid "^2.0.4"
     escape-string-regexp "^4.0.0"
 
-"@growi/pluginkit@^1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97":
-  version "1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97"
-  resolved "https://registry.yarnpkg.com/@growi/pluginkit/-/pluginkit-1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97.tgz#de4cdc4e6cccc358b6f6bf544676519bf00a6288"
-  integrity sha512-y5+nUTRyyL1ccyuktlBTfqOHJu4hkQ5bTpOqzwSXn1k8Z84rYQ1tlhFWF0VeeC7Yr0GyCkRwLbR/5GWrks2Hig==
+"@growi/pluginkit@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@growi/pluginkit/-/pluginkit-1.0.0.tgz#2fca7781fe6095759183fd3a54cdf800083348a9"
+  integrity sha512-Q/eIPcXbMU1Bq8JwEOrOcSyG9C0bv6t3PIzYZqTI2+5I249FOYD3hf29C8gY6Fv6mdWL7sqH9BtUyRULe0sJbw==
   dependencies:
-    "@growi/core" "1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97"
+    "@growi/core" "^1.0.0"
     extensible-custom-error "^0.0.7"
 
 "@jest/schemas@^29.6.3":
