@@ -12,6 +12,7 @@
     "lint:biome": "biome check ./",
     "lint:styles": "stylelint src/**/*.scss",
     "lint": "run-p lint:*",
+    "test": "vitest run",
     "// preview": "vite preview",
     "preview": "echo 'Sorry, not implemented.'"
   },
@@ -19,13 +20,16 @@
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",
     "@growi/core-styles": "^0.9.0",
+    "@growi/pluginkit": "^1.0.0-next.70dac2da5310b630c94f395f9dea0d8cbf065b97",
+    "@types/node": "^20.12.13",
     "bootstrap": "^5.3.3",
     "npm-run-all": "^4.1.5",
     "sass": "^1.77.2",
     "stylelint": "^16.5.0",
     "stylelint-config-recess-order": "^5.0.1",
     "stylelint-config-standard-scss": "^13.1.0",
-    "vite": "^5.2.11"
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0"
   },
   "growiPlugin": {
     "schemaVersion": "4",

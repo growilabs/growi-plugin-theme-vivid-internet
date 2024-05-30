@@ -22,7 +22,8 @@
         "editorconfig.editorconfig",
         "github.vscode-pull-request-github",
         "mhutchie.git-graph",
-        "stylelint.vscode-stylelint"
+        "stylelint.vscode-stylelint",
+        "vitest.explorer"
       ]
     }
   },
